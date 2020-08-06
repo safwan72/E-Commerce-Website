@@ -1,0 +1,137 @@
+@media screen and (max-width:1130px) {
+
+    #search {
+        width: 22rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    #search {
+        width: 19rem;
+    }
+
+    header {
+        padding: 1.15em 0;
+    }
+
+    .rightnav li {
+        padding: 1em 1.12em;
+    }
+
+    nav {
+        width: 10rem;
+        font-size: .8rem;
+    }
+
+
+}
+
+@media screen and (max-width:900px) {
+
+    #search {
+        width: 15rem;
+    }
+
+    header {
+        padding: 1em 0;
+    }
+
+    .rightnav li {
+        padding: .9em 1.12em;
+    }
+}
+
+@media screen and (max-width:800px) {
+    header {
+        flex-direction: column;
+        height: 134px;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    .leftsearch {
+        width: 62%;
+        margin-right: 0.5em;
+    }
+
+    .rightnav,
+    .leftnav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .leftnav {
+        margin-bottom: 1rem;
+    }
+
+    .rightnav li {
+        width: 100%;
+    }
+
+  
+
+    main {
+        grid-template-areas: "carouselarea""carouselarea""shortimagearrea";
+        padding: 0 1rem;
+        margin: 1.5em auto;
+        gap: 0.8rem;
+        position: relative;
+    }
+    nav {
+        display: none;
+        position: fixed;
+        left: 0;
+        z-index: 999;
+    }
+
+    .open_nav {
+        display: block;
+    }
+
+    .facility_grid {
+        margin: 3em 0.8em 1em;
+        padding: 0 1em;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .leftsearch {
+        width: 55%;
+    }
+
+    .short_image_main {
+        margin: auto;
+    }
+    main{padding: 0;}
+}
+
+@media screen and (max-width:460px) {
+
+
+    .leftsearch {
+        width: 48%;
+    }
+
+    .salehead {
+        left: 2.25em;
+    }
+
+    .leftnav img {
+        width: 6.11rem;
+    }
+
+    header {
+        height: 123px;
+    }
+
+    .rightnav li {
+        font-size: 0.8rem;
+        padding: .9em;
+    }
+
+
+
+}
