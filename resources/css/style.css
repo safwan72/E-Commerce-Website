@@ -201,8 +201,12 @@ main {
   width: 100%;
   object-fit: cover;
   object-position: center;
+  transition: transform ease-in-out 500ms;
 }
-
+.short_images img:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
 .short_image_main {
   margin-top: 2.25rem;
   grid-area: shortimagearrea;
